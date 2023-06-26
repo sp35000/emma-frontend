@@ -3,6 +3,8 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from './Home';
 import Foo from './Foo';
 import Bar from './Bar';
+import Emma from './Emma';
+import Rommie from './Rommie';
 
 function EmmaRoutes() {
   return (
@@ -10,9 +12,9 @@ function EmmaRoutes() {
     <BrowserRouter>
       <div>
         <Routes>
-          <Route path="/" element={<Home />}/>
-          <Route path="/foo" element={<Foo />}/>
-          <Route path="/bar" element={<Bar />}/>
+          <Route path="/sig" element={<Emma />}/>
+          <Route path="/sig/emma" element={<Emma />}/>
+          <Route path="/sig/rommie" element={<Rommie />}/>
         </Routes>
       </div>
     </BrowserRouter>

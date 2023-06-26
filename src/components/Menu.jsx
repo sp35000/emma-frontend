@@ -15,6 +15,7 @@ function Menu() {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
+          {/*
           <NavDropdown title="IT" id="basic-nav-dropdown">
               <NavDropdown.Item href="/">IT</NavDropdown.Item>
               <NavDropdown.Item href="/foo">Foo</NavDropdown.Item>
@@ -25,7 +26,6 @@ function Menu() {
               <NavDropdown.Item href="#action/3.3">Unix/Linux</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Raspbian</NavDropdown.Item>
             </NavDropdown>
-
             <NavDropdown title="News" id="basic-nav-dropdown">
               <NavDropdown.Item href="#action/3.1">News</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.2">Nature</NavDropdown.Item>
@@ -40,18 +40,17 @@ function Menu() {
               <NavDropdown.Item href="#action/3.3">Travel</NavDropdown.Item>
               <NavDropdown.Item href="#action/3.4">Economy</NavDropdown.Item>
             </NavDropdown>
-
+*/}
             <NavDropdown title="Sites" id="basic-nav-dropdown">
-              <NavDropdown.Item href="#action/3.1">Sites</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Formula 1</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Movies and TV</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Music</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.3">Learning</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.4">Technology</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.1">Travel</NavDropdown.Item>
-              <NavDropdown.Item href="#action/3.2">Finance</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/">Sites</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/charlotte">Formula 1</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/trilena">Movies and TV</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/melody">Music</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/serina">Learning</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/elle">Technology</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/finn">Travel</NavDropdown.Item>
+              <NavDropdown.Item href="/sig/rommie">Finance</NavDropdown.Item>
             </NavDropdown>
-
             <Nav.Link href="#link">Help</Nav.Link>
           </Nav>
         </Navbar.Collapse>
