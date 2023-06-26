@@ -4,7 +4,6 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
-
 import './Sig.css'
 
 function Rommie() {
@@ -63,7 +62,7 @@ function Rommie() {
                 <li><a href="https://www4.bcb.gov.br/pec/taxas/port/ptaxnpesq.asp?frame=1" target="_blank">Bacen</a>|</li>
                 <li><a href="https://www3.bcb.gov.br/registrato/">Registrato</a>]</li>
               </ul>
-              <p><a href="remotework.html" className="btn btn-lg btn-success">Remote Work</a></p>
+              <p><a href="/sig/rommie/remotework.html" className="btn btn-lg btn-success">Remote Work</a></p>
               <h2><a href="https://abacusliquid.com/best-finance-blogs/" target="_blank">Blogs</a></h2>
               <ul id="hlist">
                 <li><a href="https://www.goodfinancialcents.com/" target="_blank">goodfinancialcents</a>|</li>

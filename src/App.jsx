@@ -5,7 +5,7 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Menu from './components/Menu';
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import EmmaRoutes from './components/EmmaRoutes';
+import EmmaRoutes from './EmmaRoutes';
 
 import './App.css'
 

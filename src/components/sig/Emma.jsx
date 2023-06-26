@@ -4,6 +4,7 @@ import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Button from 'react-bootstrap/Button';
+import './Sig.css'
 
 function Emma() {
   return (
@@ -13,7 +14,6 @@ function Emma() {
     <h1>Sites</h1>
     <h2>World</h2>
     <p>
-    <Button variant="success" href="https://www.timeanddate.com/" target="_blank">Time and Date</Button>
       <Button variant="success" href="https://www.timeanddate.com/" target="_blank">Time and Date</Button>
       <Button variant="success" href="https://5amjoel.com/5am-emails" target="_blank">5 AM</Button>
       <Button variant="success" href="https://theintercept.com/" target="_blank">The Intercept</Button>
@@ -89,18 +89,17 @@ function Emma() {
             <Button variant="success" href="https://web.telegram.org/#/login" target="_blank">Telegram</Button>
             <Button variant="success" href="https://forum.earlyretirementextreme.com/" target="_blank">ERE</Button>
           </p>
-
-          <h2>Finance</h2>
 {/*
+          <h2>Finance</h2>
+
           <div class="frame-container">
             <iframe class="responsive-iframe" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vREdJFqdh2z9iss2b73Z3vvNywBhfGecHReDFeyUBL-S_DQMpV_Es76CKIPxa552_mhmmVb9p57B5Xe/pubhtml?gid=1413162259&amp;single=true&amp;widget=true&amp;headers=false" width="800px" height="400px">
               <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height: 0;" class="mce_SELRES_start">﻿</span>
               <span data-mce-type="bookmark" style="display: inline-block; width: 0px; overflow: hidden; line-height:0;"class="mce_SELRES_start">﻿</span>
             </iframe>
           </div>
-          <p class="bg-info" align="center"><small>This spreadsheet is a courtesy of <strong>Rommie</strong> blog.</small></br>
-          */}
-
+          <p class="bg-info" align="center"><small>This spreadsheet is a courtesy of <strong>Rommie</strong> blog.</small></p>
+  */}
             <h2>Internet</h2>
             <p>
               <Button variant="success" href="https://archive.org/" target="_blank">Archive</Button>
@@ -113,9 +112,9 @@ function Emma() {
               <Button variant="success" href="https://web.whatsapp.com/" target="_blank">WhatsApp</Button>
               <Button variant="success" href="https://mail.yahoo.com" target="_blank">yahoo! mail</Button>
               <br/><br/>
-              <Button variant="success" href="https://www.google.com" target="_blank">Google</Button>[
-              <Button variant="success" href="https://www.gmail.com" target="_blank">Gmail</Button>|
-              <Button variant="success" href="https://www.youtube.com" target="_blank">YouTube</Button>]
+              <Button variant="success" href="https://www.google.com" target="_blank">Google</Button>
+              <Button variant="success" href="https://www.gmail.com" target="_blank">Gmail</Button>
+              <Button variant="success" href="https://www.youtube.com" target="_blank">YouTube</Button>
             </p>
     </Row>
     </Container>
